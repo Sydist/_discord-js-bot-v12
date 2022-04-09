@@ -1,0 +1,16 @@
+{
+  "name": "discord-ring-macro",
+  "version": "1.0.0",
+  "description": "Spam rings whoever you want into oblivion.",
+  "main": "dist/index.js",
+  "scripts": {},
+  "author": "Sydist",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^16.0.0"
+  }
+}
