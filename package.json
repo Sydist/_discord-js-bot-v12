@@ -6,9 +6,6 @@
   "scripts": {},
   "author": "Sydist",
   "license": "ISC",
-  "devDependencies": {
-    "typescript": "^4.6.3"
-  },
   "dependencies": {
     "discord.js": "^12.5.3",
     "dotenv": "^16.0.0"
