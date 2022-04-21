@@ -1,11 +1,28 @@
 {
-  "name": "discord-ring-macro",
+  "name": "discord-bot-template",
   "version": "1.0.0",
-  "description": "Spam rings whoever you want into oblivion.",
-  "main": "dist/index.js",
+  "description": "Template for making discord bots with discord.js v12",
+  "main": "index.js",
   "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sydist/discord-bot-template.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discord",
+    "bot",
+    "template",
+    "javascript",
+    "discord.js@12"
+  ],
   "author": "Sydist",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sydist/discord-bot-template/issues"
+  },
+  "homepage": "https://github.com/Sydist/discord-bot-template#readme",
   "dependencies": {
     "discord.js": "^12.5.3",
     "dotenv": "^16.0.0"

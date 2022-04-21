@@ -6,7 +6,6 @@ const { TOKEN, PREFIX } = process.env;
 const { Client } = require("discord.js");
 const client = new Client();
 
-
 client.on("ready", () => console.log("Started..."));
 
 client.on("message", message => {
@@ -18,6 +17,5 @@ client.on("message", message => {
    if (!existsSync(`./commands/${name}.js`)) return;
    require(`./commands/${name}`)(message, args);
 });
-
 
 client.login(TOKEN);
